@@ -36,7 +36,7 @@ public class Car {
                 model + "," + price;
     }
 
-    @Override
+    /*@Override
     public boolean equals(Object obj) {
         if (obj == this ){
             return true;
@@ -46,5 +46,5 @@ public class Car {
             return this.registrationNumber.equalsIgnoreCase(carObj.registrationNumber);
         }
         return false;
-    }
+    }*/
 }

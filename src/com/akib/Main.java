@@ -196,7 +196,6 @@ public class Main {
                 int price = Integer.parseInt(fields[7]);
                 Car car = new Car(registrationNumber,yearMade,colors,manufacture,model,price);
                 carList.addCar(car);
-
             }
         }catch (IOException e){
             System.out.println("Unable to read file, Please validate the database file");
