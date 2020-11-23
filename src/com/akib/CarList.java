@@ -31,7 +31,7 @@ public class CarList {
 
     public Car searchCar(String registrationNumber){
         for (Car c: this.cars){
-            if (c.getRegistrationNumber().equals(registrationNumber)){
+            if (c.getRegistrationNumber().equalsIgnoreCase(registrationNumber)){
                 return c;
             }
         }
